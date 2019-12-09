@@ -8,3 +8,6 @@
 *.bmp
 *.bundle
 *.info
+*.prefab
+*.mat
+*.controller
