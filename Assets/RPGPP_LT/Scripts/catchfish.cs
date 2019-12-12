@@ -6,6 +6,7 @@ using UnityEngine;
 public class catchfish : MonoBehaviour
 {
     public UIreference UI;
+    public fishspawner fishSpawner;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,7 @@ public class catchfish : MonoBehaviour
                 {
                     Destroy(theFish.gameObject);
                     UI.catchFish();
+                    fishSpawner.spawnFish();
                 }
             }
         }   
